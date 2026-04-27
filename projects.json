@@ -1,0 +1,29 @@
+[
+  {
+    "num": "01",
+    "name": "Inventory Freedom",
+    "desc": "C# game mod using Harmony postfix patching to override stack limits at runtime. 12k+ unique users, zero crashes, featured in YouTube content reaching 100k+ views. Compatible with third-party mods. Verified author on Nexus Mods.",
+    "tags": ["C#", "Harmony", "MelonLoader", "Nexus Mods", "12k+ Users"],
+    "accentTags": ["C#", "Harmony"],
+    "link": "https://www.nexusmods.com/schedule1/mods/291",
+    "badge": null
+  },
+  {
+    "num": "02",
+    "name": "TaskMaster CLI",
+    "desc": "Interactive TUI task manager built in .NET 8. CRUD operations, search, sort, statistics dashboard, and JSON export. In-memory storage with file persistence.",
+    "tags": [".NET 8", "C#", "CLI / TUI", "JSON"],
+    "accentTags": [".NET 8", "C#"],
+    "link": null,
+    "badge": "In Progress"
+  },
+  {
+    "num": "03",
+    "name": "Zoo Management System",
+    "desc": "Console application demonstrating core OOP principles — inheritance, polymorphism, encapsulation. Animal data management using dictionaries and linked lists.",
+    "tags": ["C#", "OOP", "Data Structures"],
+    "accentTags": ["C#"],
+    "link": null,
+    "badge": "GCU Coursework"
+  }
+]
