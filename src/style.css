@@ -277,3 +277,55 @@ footer span {
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); }
+
+/* ── Mobile ──────────────────────────────────────── */
+@media (max-width: 768px) {
+
+  :root { --pad: 18px; }
+
+  /* Nav */
+  .nav-inner { height: 52px; }
+  .nav-id { font-size: 0.65rem; letter-spacing: 0.12em; }
+  .nav-links { gap: 20px; }
+  .nav-links a { font-size: 0.7rem; }
+
+  /* Hero */
+  .hero { padding-top: 100px; padding-bottom: 40px; }
+  .hero-meta { margin-bottom: 24px; }
+  .hero-meta span { font-size: 0.62rem; }
+  .name-line span { font-size: clamp(56px, 16vw, 96px); }
+  .name-block { margin-bottom: 28px; }
+  .hero-bottom { flex-direction: column; gap: 24px; align-items: flex-start; }
+  .hero-mark { display: none; }
+
+  /* Stats — stack to single column */
+  .stats { grid-template-columns: 1fr; }
+  .stat { border-right: none; border-bottom: 1px solid var(--border); padding: 20px 18px; }
+  .stat:last-child { border-bottom: none; }
+  .stat-num { font-size: 2.4rem; }
+
+  /* Verified bar */
+  .verified-bar { flex-direction: column; align-items: flex-start; gap: 10px; padding: 14px 18px; }
+  .verified-text { font-size: 0.72rem; }
+
+  /* Projects */
+  .section-row { margin-bottom: 8px; }
+  .project { padding: 24px 4px; gap: 16px; }
+  .project:hover { padding-left: 4px; padding-right: 4px; margin: 0; }
+  .p-name { font-size: 2rem; }
+  .p-desc { font-size: 0.88rem; }
+
+  /* About section — stack vertically */
+  .about-section { padding: 28px 20px; }
+  .about-inner { flex-direction: column; align-items: flex-start; gap: 28px; }
+  .about-text-block { max-width: 100%; }
+  .about-links { flex-direction: row; flex-wrap: wrap; align-self: auto; justify-content: flex-start; }
+  .about-link { padding: 8px 14px; }
+}
+
+/* ── Small mobile ─────────────────────────────────── */
+@media (max-width: 480px) {
+  .name-line span { font-size: clamp(48px, 15vw, 72px); }
+  .stat-num { font-size: 2rem; }
+  .p-name { font-size: 1.7rem; }
+}
