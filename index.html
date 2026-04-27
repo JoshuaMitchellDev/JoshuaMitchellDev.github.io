@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josh Mitchell — Developer</title>
+    <meta name="description" content="Self-taught C# .NET developer based in Glasgow. Building backend systems and shipping real software." />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+
+      <nav class="nav">
+        <span class="nav-id">JM — portfolio</span>
+        <div class="nav-links">
+          <a href="#work">work</a>
+          <a href="#about">about</a>
+          <a href="#contact">contact</a>
+          <a href="/cv.pdf" class="accent" download>cv ↓</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-top">
+          <span>01 / DEVELOPER</span>
+          <span>Glasgow, Scotland</span>
+        </div>
+        <div class="name-block">
+          <div class="name-line1">JOSH</div>
+          <div class="name-line2">MITCHELL</div>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-role">
+            C# · .NET · ASP.NET CORE<br>
+            SELF-TAUGHT · BSC 2:1 GCU<br>
+            JUNIOR ROLES · UK / REMOTE
+          </div>
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+            <circle cx="40" cy="40" r="38" stroke="#2C2A27" stroke-width="2"/>
+            <rect x="40" y="16" width="34" height="34" rx="1"
+              transform="rotate(45 40 40)" stroke="#8B6F5E" stroke-width="2"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="stats-grid">
+        <div class="stat">
+          <div class="stat-num">12<span class="accent">k+</span></div>
+          <div class="stat-label">unique downloads</div>
+          <div class="stat-src">nexus mods</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">100<span class="accent">k+</span></div>
+          <div class="stat-label">youtube views</div>
+          <div class="stat-src">inventory freedom</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">131</div>
+          <div class="stat-label">profile views</div>
+          <div class="stat-src">nexus mods</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" id="gh-repos">—</div>
+          <div class="stat-label">public repos</div>
+          <div class="stat-src">github</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" id="gh-followers">—</div>
+          <div class="stat-label">followers</div>
+          <div class="stat-src">github</div>
+        </div>
+      </section>
+
+      <div class="verified-bar">
+        <div class="verified-badge">
+          <svg width="16" height="18" viewBox="0 0 16 18" fill="none">
+            <path d="M8 0.5L1 3.5V9C1 12.89 4.09 16.52 8 17.5C11.91 16.52 15 12.89 15 9V3.5L8 0.5Z"
+              fill="#2C2A27" stroke="#2C2A27" stroke-width="0.5"/>
+            <path d="M5 9l2 2 4-4" stroke="#F0EDE6" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="v-text">Verified Mod Author</span>
+        </div>
+        <span class="v-downloads">12,220 unique downloads · Nexus Mods</span>
+      </div>
+
+      <div class="divider-label" id="work">
+        <span>selected work</span>
+        <span>01 project</span>
+      </div>
+
+      <div class="project">
+        <div class="p-num">01</div>
+        <div class="p-body">
+          <div class="p-name">Inventory Freedom</div>
+          <div class="p-desc">C# game mod using Harmony postfix patching to override stack limits at runtime. 12k+ unique users, zero crashes, featured in YouTube content reaching 100k+ views. Compatible with third-party mods.</div>
+          <div class="p-tags">
+            <span class="tag accent-tag">C#</span>
+            <span class="tag accent-tag">Harmony</span>
+            <span class="tag">MelonLoader</span>
+            <span class="tag">Nexus Mods</span>
+            <span class="tag">12k+ users</span>
+          </div>
+        </div>
+        <a href="https://www.nexusmods.com/schedule1/mods/8" target="_blank" class="p-arrow">→</a>
+      </div>
+
+      <div class="bottom" id="about">
+        <div class="about">
+          <div class="section-label">about</div>
+          <p class="about-text">25 year old self-taught C# developer based in Glasgow. BSc Software Development from GCU. I build backend systems, ship real software, and learn in public.</p>
+          <div class="github-stats">
+            <div class="gh-pill">
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="#5F5E5A">
+                <path d="M5 0C2.24 0 0 2.24 0 5c0 2.21 1.43 4.09 3.42 4.75.25.05.34-.11.34-.24v-.86c-1.39.3-1.68-.67-1.68-.67-.23-.58-.56-.73-.56-.73-.46-.31.03-.31.03-.31.5.03.77.52.77.52.45.77 1.18.55 1.47.42.05-.33.18-.55.32-.68-1.12-.13-2.3-.56-2.3-2.49 0-.55.2-1 .52-1.35-.05-.13-.23-.64.05-1.33 0 0 .42-.13 1.38.52A4.8 4.8 0 015 2.44c.43 0 .86.06 1.26.17.96-.65 1.38-.52 1.38-.52.28.69.1 1.2.05 1.33.32.35.52.8.52 1.35 0 1.94-1.18 2.36-2.31 2.49.18.16.34.47.34.94v1.4c0 .13.09.29.34.24C8.57 9.09 10 7.21 10 5c0-2.76-2.24-5-5-5z"/>
+              </svg>
+              <span id="gh-repos-label">loading...</span>
+            </div>
+            <div class="gh-pill">
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="#5F5E5A">
+                <circle cx="5" cy="3" r="2"/>
+                <path d="M1 9c0-2.21 1.79-4 4-4s4 1.79 4 4" fill="#5F5E5A"/>
+              </svg>
+              <span id="gh-followers-label">loading...</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact" id="contact">
+          <div class="section-label">get in touch</div>
+          <form id="contact-form">
+            <input class="field" name="name" placeholder="name_" required autocomplete="off"/>
+            <input class="field" name="email" type="email" placeholder="email_" required autocomplete="off"/>
+            <textarea class="textarea" name="message" placeholder="message_" required></textarea>
+            <div class="send-row">
+              <span class="send-note">powered by formspree</span>
+              <button class="send-btn" type="submit" id="send-btn">send →</button>
+            </div>
+            <div class="form-msg" id="form-msg"></div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <span>JoshuaMitchellDev</span>
+        <span>© 2026</span>
+      </footer>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
